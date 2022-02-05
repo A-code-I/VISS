@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+@using (Html.BeginForm())
+{
+    <table cellspacing="10">
+        <tr>
+            <td colspan="2">
+                <b>Login</b>
+            </td>
+        </tr>
+        <tr>
+            <td>Enter Email Id:</td>
+            <td>@Html.TextBox("txtEmailId",null,new { @class = "form-control" })
+            </td>
+        </tr>
+
+       
+        <tr>
+            <td>Enter password:</td>
+            <td>@Html.TextBox("txtPassword",null,new { @class = "form-control" })
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Login" class="btn btn-default"/>
+            </td>
+        </tr>
+    </table>
+}
