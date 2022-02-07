@@ -6,8 +6,6 @@
 trigger:
 - main
 
-
-container:
 pool:
   vmImage: 
   demands:
