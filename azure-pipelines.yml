@@ -6,8 +6,10 @@
 trigger:
 - main
 
+
+container:
 pool:
-  vmImage: Hosted VS2017
+  vmImage: 
   demands:
   - msbuild
   - visualstudio
